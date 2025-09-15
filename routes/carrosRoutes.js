@@ -1,5 +1,5 @@
 import express from "express";
-import { createCarro, deleteCarros, getAllcarros, updateCarros, getCarrosByld} from "../projeto-carros/controllers/carrosController.js";
+import { createCarro, deleteCarros, getAllcarros, updateCarros, getCarrosByld} from "../controllers/carrosControllers.js";
 
 const router = express.Router();
 router.get("/:id", getAllcarros);
